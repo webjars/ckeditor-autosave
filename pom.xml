@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ckeditor-autosave</artifactId>
-    <version>0.17-SNAPSHOT</version>
+    <version>0.17</version>
     <name>CKEditor autosave</name>
     <description>WebJar for CKEditor-autosave</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/ckeditor-autosave</url>
         <connection>scm:git:https://github.com/webjars/ckeditor-autosave.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/ckeditor-autosave.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>ckeditor-autosave-0.17</tag>
     </scm>
 
     <build>
@@ -69,7 +69,7 @@
                                 <get src="${upstream.url}/${upstream.version}.zip" dest="${project.build.directory}/${project.artifactId}.zip" />
                                 <echo message="unzip archives" />
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}">
-                                    <cutdirsmapper dirs="1"/>
+                                    <cutdirsmapper dirs="1" />
                                 </unzip>
                                     
 -                                <echo message="moving resources" />
