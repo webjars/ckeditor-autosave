@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ckeditor-autosave</artifactId>
-    <version>0.18</version>
+    <version>0.19-SNAPSHOT</version>
     <name>CKEditor autosave</name>
     <description>WebJar for CKEditor-autosave</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/ckeditor-autosave</url>
         <connection>scm:git:https://github.com/webjars/ckeditor-autosave.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/ckeditor-autosave.git</developerConnection>
-        <tag>ckeditor-autosave-0.18</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
